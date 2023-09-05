@@ -17,7 +17,7 @@ let myVariable2 = 'world'
 console.log(myVariable2)
 
 
-var a= 1
+var a = 1
 let b = 2
 const c = 3
 
@@ -44,7 +44,7 @@ let arrayVar = []
 let objectVar = {}
 
 console.log(stringVar, numberVar, boolVar, arrayVar, objectVar)
-
+// push 메서드는 배열의 끝에 새로운 요소를 추가
 arrayVar.push('hello')
 console.log(arrayVar)
 
@@ -105,19 +105,19 @@ for (let i=0; i<myArrary.length; i++) {
     console.log(myArrary[i])
 }
 
-
+// 배열 요소의 인덱스가 저장되고 출력
 console.log('for in')
 // for item in myArrary:
 for (let item in myArrary) {
     console.log(item)
 }
 
-
+// 배열의 각 요소가 저장되고 출력
 console.log('for of')
 for (let item of myArrary) {
     console.log(item)
 }
-
+// forEach() 메서드는 배열의 각 요소에 대해 지정된 콜백 함수를 호출
 console.log('for each')
 myArrary.forEach( function(item, index, array){
     console.log(item, index, array)
@@ -248,7 +248,7 @@ fetchAndPrint()
 // console.log('hello')
 
 
-
+// 모든 <li> 요소를 NodeList 형태로 가져옴
 const liElements = document.querySelectorAll('li')
 console.log(liElements)
 
